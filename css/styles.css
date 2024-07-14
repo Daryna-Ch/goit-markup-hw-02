@@ -1,0 +1,184 @@
+/* :root {
+   
+    --accent-color: #2196F3;
+    --studio-color: #000000;
+    --prim-text-color: #212121;
+    --sec-text-color: #757575;
+    --sec-accent-color: #ffffff;
+    --accent-bcg-color: #2F303A;
+    --sec-bcg-color: #F5F4FA;
+    --half-color: rgba(255, 255, 255, 0.6);;
+    --active-prim-button: #188CE8;
+
+}
+*/
+
+/* */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: E5E5E5;
+}
+
+.in-line {
+  display: inline;
+}
+
+/* header start*/
+a {
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #404bbf;
+}
+
+a:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: inline;
+}
+
+.logo-header {
+  color: #2e2f42;
+}
+
+.logo-accent {
+  color: #4d5ae5;
+}
+
+.nav-header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+ul {
+  list-style-type: none;
+}
+
+address > ul {
+  font-weight: 400;
+  color: #434455;
+}
+
+/* header end */
+
+/* section 1 hero-image - start */
+.hero-image {
+  /*  height: 600px;*/
+  background: #2e2f42;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.button-hero {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  line-height: 1.5;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  cursor: pointer;
+}
+
+.button-hero:hover {
+  background: #404bbf;
+}
+/* section 1 hero-image - end */
+
+/* section 2 advantages - start */
+.advantages > ul {
+  display: flex;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  text-align: center;
+  color: #2e2f42;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #2e2f42;
+}
+/* section 2 advantages - end */
+
+/* section 3 team - start */
+.team {
+  height: 732px;
+  background: #f4f4fd;
+}
+
+.team-card {
+  display: flex;
+}
+
+.team-card > li {
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+  text-align: center;
+}
+/* section 3 team - end */
+
+/* section 4 portfolio - start */
+.portfolio {
+}
+
+.portfolio > ul {
+  display: flex;
+}
+
+.portfolio-card {
+  width: 360px;
+  height: 420px;
+}
+/* section 4 portfolio - end */
+
+/* footer start*/
+footer {
+  background: #2e2f42;
+}
+
+.logo-footer {
+  color: #f4f4fd;
+}
+
+/* footer end*/

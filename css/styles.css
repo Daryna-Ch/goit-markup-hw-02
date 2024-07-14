@@ -8,11 +8,7 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
-  background-color: E5E5E5;
-}
-
-.in-line {
-  display: inline;
+  background-color: #ffffff;
 }
 
 /* header start*/
@@ -26,7 +22,7 @@ a:hover {
   color: #404bbf;
 }
 
-a:active {
+.link-studio:active {
   color: #404bbf;
   text-decoration: underline;
 }
@@ -38,15 +34,11 @@ a:active {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: inline;
+  color: #4d5ae5;
 }
 
 .logo-header {
   color: #2e2f42;
-}
-
-.logo-accent {
-  color: #4d5ae5;
 }
 
 .nav-header {
@@ -62,11 +54,19 @@ ul {
   list-style-type: none;
 }
 
-address > ul {
+.address-list {
+  font-style: normal;
   font-weight: 400;
   color: #434455;
 }
 
+.address-list:hover {
+  color: #404bbf;
+}
+
+.address-list:active {
+  color: #404bbf;
+}
 /* header end */
 
 /* section 1 hero-image - start */
@@ -75,7 +75,7 @@ address > ul {
   background: #2e2f42;
 }
 
-h1 {
+.title-hero {
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
@@ -85,12 +85,17 @@ h1 {
 }
 
 .button-hero {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
   border-radius: 4px;
   padding: 16px 32px;
   width: 169px;
   height: 56px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  color: #ffffff;
   background: #4d5ae5;
   cursor: pointer;
 }
@@ -98,26 +103,33 @@ h1 {
 .button-hero:hover {
   background: #404bbf;
 }
+.button-hero:active {
+  background: #404bbf;
+}
 /* section 1 hero-image - end */
 
 /* section 2 advantages - start */
-.advantages > ul {
-  display: flex;
-}
 
-h2 {
+.title-sec {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   text-align: center;
   color: #2e2f42;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
-h3 {
+.title-thr {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+
+.text-adv {
+  font-size: 16px;
 }
 /* section 2 advantages - end */
 
@@ -125,10 +137,6 @@ h3 {
 .team {
   height: 732px;
   background: #f4f4fd;
-}
-
-.team-card {
-  display: flex;
 }
 
 .team-card > li {
@@ -147,10 +155,6 @@ h3 {
 .portfolio {
 }
 
-.portfolio > ul {
-  display: flex;
-}
-
 .portfolio-card {
   width: 360px;
   height: 420px;
@@ -158,7 +162,7 @@ h3 {
 /* section 4 portfolio - end */
 
 /* footer start*/
-footer {
+.footer {
   background: #2e2f42;
 }
 

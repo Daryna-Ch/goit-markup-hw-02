@@ -1,4 +1,8 @@
 /* */
+:root {
+  /* color*/
+  --text-footer-color: #f4f4fd;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -20,13 +24,9 @@ a {
   color: #2e2f42;
 }
 
-.link-nav:hover {
-  color: #404bbf;
-}
-
+.link-nav:hover,
 .link-nav:focus {
   color: #404bbf;
-  text-decoration: underline;
 }
 
 .logo {
@@ -62,13 +62,11 @@ ul {
   color: #434455;
 }
 
-.address-list:hover {
-  color: #404bbf;
-}
-
+.address-list:hover,
 .address-list:focus {
   color: #404bbf;
 }
+
 /* header end */
 
 /* section 1 hero-image - start */
@@ -97,12 +95,11 @@ ul {
   cursor: pointer;
 }
 
-.button-hero:hover {
-  background-color: #404bbf;
-}
+.button-hero:hover,
 .button-hero:focus {
   background-color: #404bbf;
 }
+
 /* section 1 hero-image - end */
 
 /* section 2 advantages - start */
@@ -135,7 +132,7 @@ ul {
   background-color: #f4f4fd;
 }
 
-.team-card > li {
+.team-card {
   background-color: #ffffff;
   text-align: center;
 }
@@ -157,6 +154,6 @@ ul {
 }
 .text-foot {
   font-size: 16px;
-  color: #f4f4fd;
+  color: --text-footer-color;
 }
 /* footer end*/

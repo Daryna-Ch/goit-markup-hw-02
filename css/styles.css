@@ -12,17 +12,17 @@ body {
 }
 
 /* header start*/
-a {
+.link-nav {
   text-decoration: none;
   color: #2e2f42;
 }
 
-a:hover {
+.link-nav:hover {
   text-decoration: none;
   color: #404bbf;
 }
 
-.link-studio:active {
+.link-nav:active {
   color: #404bbf;
   text-decoration: underline;
 }
@@ -101,10 +101,10 @@ ul {
 }
 
 .button-hero:hover {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 .button-hero:active {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 /* section 1 hero-image - end */
 

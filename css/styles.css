@@ -22,6 +22,7 @@ a {
 
 .link-nav {
   color: #2e2f42;
+  text-decoration: none;
 }
 
 .link-nav:hover,
@@ -72,7 +73,7 @@ ul {
 /* section 1 hero-image - start */
 .hero-image {
   /*  height: 600px;*/
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .title-hero {
@@ -134,8 +135,8 @@ ul {
 
 .team-card {
   background-color: #ffffff;
-  text-align: center;
 }
+
 /* section 3 team - end */
 
 /* section 4 portfolio - start */
@@ -154,6 +155,6 @@ ul {
 }
 .text-foot {
   font-size: 16px;
-  color: --text-footer-color;
+  color: var(--text-footer-color);
 }
 /* footer end*/
